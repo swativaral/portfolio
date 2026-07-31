@@ -510,3 +510,34 @@ body.light-mode .achievement-card p{
 body.light-mode .nav-links a{
     color:#0f172a;
 }
+.contact-form{
+    max-width:600px;
+    margin:30px auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.contact-form button{
+    background:#38bdf8;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.contact-form button:hover{
+    background:#0284c7;
+}
