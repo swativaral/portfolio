@@ -8,22 +8,27 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">   
+<link rel="stylesheet" href="Style.css">
 </head>
+<button id="topBtn" onclick="topFunction()">⬆</button>
 <body>
     <nav class="navbar">
     <div class="logo">Swati Varal</div>
 
     <ul class="nav-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
+    <button id="theme-toggle" class="theme-btn">🌙</button>
 </nav>
-    <header class="hero">
+    <header id="home" class="hero">
 
     <div class="hero-content">
 
@@ -31,16 +36,17 @@
 
         <h1>Hi, I'm <span>Swati Varal</span></h1>
 
-        <h2>Artificial Intelligence & Machine Learning Student</h2>
+        <h2><span id="typing"></span></h2>
 
         <p>
-            Passionate about Python, AI, Machine Learning, and building real-world projects.
+        Passionate Artificial Intelligence & Machine Learning student with a strong interest in Python, Machine Learning, Data Science, and AI. I enjoy building real-world projects, continuously learning new technologies, and solving real-world problems through innovation.
         </p>
 
-        <a href="resume.pdf" class="btn" download>Download Resume</a>
+        <a href="resume.pdf" class="btn" download>📄 Download Resume</a>
 
-        <a href="https://github.com/swativaral" class="btn">GitHub</a>
+        <a href="https://github.com/swativaral" class="btn" target="_blank">💻 GitHub</a>
 
+        <a href="https://www.linkedin.com/in/swati-varal-043993343/" class="btn" target="_blank">💼 LinkedIn</a>
     </div>
 
 </header>
@@ -49,9 +55,7 @@
     <h2>About Me</h2>
 
     <p>
-        Hello! I'm Swati Varal, a B.Tech Artificial Intelligence and Machine Learning student.
-        I enjoy learning Python, Machine Learning, Data Science, and building projects that solve real-world problems.
-        My goal is to become a skilled AI/ML Engineer and continuously improve my technical skills.
+        Hello! I'm Swati Varal, a B.Tech student specializing in Artificial Intelligence and Machine Learning at JSPM University, Pune. I am passionate about Artificial Intelligence, Machine Learning, Python, and Data Science. I enjoy building real-world projects, learning new technologies, and continuously improving my programming skills. My goal is to become a skilled AI/ML Engineer and contribute to innovative AI solutions.
     </p>
 
 </section>
@@ -61,16 +65,31 @@
 
     <div class="skills-container">
 
-        <div class="skill-card">Python</div>
-        <div class="skill-card">C</div>
-        <div class="skill-card">C++</div>
-        <div class="skill-card">Java</div>
-        <div class="skill-card">HTML</div>
-        <div class="skill-card">CSS</div>
-        <div class="skill-card">JavaScript</div>
-        <div class="skill-card">Machine Learning</div>
-        <div class="skill-card">Git & GitHub</div>
-        <div class="skill-card">VS Code</div>
+        <div class="skill-card"><i class="fa-brands fa-python"></i> Python</div>
+
+<div class="skill-card"><i class="fa-solid fa-c"></i> C</div>
+
+<div class="skill-card"><i class="fa-solid fa-code"></i> C++</div>
+
+<div class="skill-card"><i class="fa-brands fa-java"></i> Java</div>
+
+<div class="skill-card"><i class="fa-brands fa-html5"></i> HTML</div>
+
+<div class="skill-card"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+
+<div class="skill-card"><i class="fa-brands fa-js"></i> JavaScript</div>
+
+<div class="skill-card"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+
+<div class="skill-card"><i class="fa-brands fa-git-alt"></i> Git</div>
+
+<div class="skill-card"><i class="fa-brands fa-github"></i> GitHub</div>
+
+<div class="skill-card"><i class="fa-solid fa-code"></i> VS Code</div>
+
+<div class="skill-card"><i class="fa-solid fa-database"></i> Data Structures</div>
+
+<div class="skill-card"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
 
     </div>
 
@@ -87,35 +106,42 @@
         A Python-based food ordering application with menu selection,
         billing, GST calculation, and receipt generation.
     </p>
+    <p><strong>Technologies:</strong> Python, File Handling</p>
 
-    <a href="https://github.com/swativaral" class="project-btn" target="_blank">
+    <a href="https://github.com/swativaral/Food-Delivery-App" class="project-btn" target="_blank">
         View Project
     </a>
 
 </div>
         <div class="project-card">
-            <img src="images/delivery receipt.png" alt="Food Delivery Receipt" class="project-img">
+            <img src="images/Admission.png" alt="Admission Management System" class="project-img">
             <h3>🎓 Admission Management System</h3>
             <p>
                 A Python application to manage student admission details,
                 eligibility checking, and fee information.
             </p>
-            <a href="https://github.com/swativaral" class="project-btn" target="_blank">
+           <p><strong>Technologies:</strong> Python, Conditional Statements</p>
+            <a href="https://github.com/swativaral/Admission_Management_System" class="project-btn" target="_blank">
     View Project
 </a>
         </div>
 
         <div class="project-card">
-            <img src="images/finance.png" alt="AI Finance Tracker" class="project-img">
-            <h3>📊 AI Finance Tracker</h3>
-            <p>
-                A personal finance tracker to record income, expenses,
-                and monthly spending analysis.
-            </p>
-            <a href="https://github.com/swativaral" class="project-btn" target="_blank">
-    View Project
-</a>
-        </div>
+    <img src="images/finance.png" alt="AI Finance Tracker" class="project-img">
+
+    <h3>📊 AI Finance Tracker</h3>
+
+    <p>
+        A personal finance tracker to record income, expenses,
+        and monthly spending analysis.
+    </p>
+
+    <p><strong>Technologies:</strong> Python, Data Analysis</p>
+
+    <a href="https://github.com/swativaral/AI-Finance-Tracker" class="project-btn" target="_blank">
+        View Project
+    </a>
+</div>
 
     </div>
 
@@ -134,6 +160,35 @@
         <div class="certificate-card">
             <h3>Zero Trust Cloud Security Internship</h3>
             <p>AICTE | EduSkills | Zscaler</p>
+        </div>
+
+    </div>
+
+</section>
+<section id="achievements" class="achievements">
+
+    <h2>Achievements</h2>
+
+    <div class="achievement-container">
+
+        <div class="achievement-card">
+            <h3>🎓 AWS Generative AI Virtual Internship</h3>
+            <p>Completed an 8-week AICTE, EduSkills & AWS Academy virtual internship on Generative AI.</p>
+        </div>
+
+        <div class="achievement-card">
+            <h3>☁️ Zero Trust Cloud Security Internship</h3>
+            <p>Successfully completed a virtual internship on Zero Trust Cloud Security with AICTE, EduSkills & Zscaler.</p>
+        </div>
+
+        <div class="achievement-card">
+            <h3>📊 Academic Performance</h3>
+            <p>B.Tech AIML | Current CGPA: <strong>8.46</strong></p>
+        </div>
+
+        <div class="achievement-card">
+            <h3>💻 Projects</h3>
+            <p>Built multiple Python-based applications including Food Delivery, Admission Management and AI Finance Tracker.</p>
         </div>
 
     </div>
